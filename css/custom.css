@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(roboto/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+}
 .vertical-centering {
   top: 50%;
   transform: translateY(-50%);
