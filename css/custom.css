@@ -1,9 +1,18 @@
 @charset "utf-8";
 
 @font-face {
-  font-family: 'Roboto';
-  src: url(roboto/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+  font-family: 'Custom-font';
+  src: url(roboto/Frank_Ruhl_Libre/FrankRuhlLibre-VariableFont_wght.ttf) format('ttf');
+  font-weight: 100;
+  font-stretch: 25% 151%;
 }
+
+.nav {
+  position: fixed;
+  background-color: #fcf4eb;
+  z-index: 999;
+}
+
 .vertical-centering {
   top: 50%;
   transform: translateY(-50%);
@@ -218,10 +227,10 @@
   --the7-small-button-border-radius: 1px;
   --the7-woo-title-font-size: 20px;
   --the7-woo-title-line-height: 30px;
-  --the7-woo-title-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-woo-title-font-family: "Roboto";
   --the7-woo-content-font-size: 20px;
   --the7-woo-content-line-height: 30px;
-  --the7-woo-content-font-family: "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+  --the7-woo-content-font-family: "Roboto";
 }
 .transparent-border-mixin {
   border-color: rgba(0,0,0,0.08);
@@ -259,7 +268,7 @@ html,
 body,
 body.page,
 .wf-container > * {
-  font:  normal 300 26px / 38px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 26px / 38px "Custom-font";
   word-spacing: normal;
   color: #000000;
 }
@@ -393,7 +402,7 @@ h1,
 .entry-title.h1-size,
 .dt-accordion-h1-size .wpb_accordion_header > a {
   color: #000000;
-  font:  normal 300 60px / 71px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 60px / 71px "Custom-font";
   text-transform: none;
 }
 @media (max-width: 992px) {
@@ -420,7 +429,7 @@ h2,
 h1.entry-title,
 .dt-accordion-h2-size .wpb_accordion_header > a {
   color: #000000;
-  font:  normal 300 34px / 44px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 34px / 44px "Custom-font";
   text-transform: none;
 }
 h3,
@@ -429,7 +438,7 @@ h3,
 h2.entry-title,
 .dt-accordion-h3-size .wpb_accordion_header > a {
   color: #000000;
-  font:  normal 300 24px / 34px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 24px / 34px "Custom-font";
   text-transform: none;
 }
 h4,
@@ -439,7 +448,7 @@ h3.entry-title,
 .dt-accordion-h4-size .wpb_accordion_header > a,
 .vc_separator h4 {
   color: #000000;
-  font:  normal 300 20px / 30px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 20px / 30px "Custom-font";
   text-transform: none;
 }
 h5,
@@ -448,7 +457,7 @@ h4.entry-title,
 .entry-title.h5-size,
 .dt-accordion-h5-size .wpb_accordion_header > a {
   color: #000000;
-  font:  normal 300 16px / 26px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 16px / 26px "Custom-font";
   text-transform: none;
 }
 h6,
@@ -456,7 +465,7 @@ h6,
 .entry-title.h6-size,
 .dt-accordion-h6-size .wpb_accordion_header > a {
   color: #000000;
-  font:  normal 300 14px / 24px "Frank Ruhl Libre", Helvetica, Arial, Verdana, sans-serif;
+  font:  normal 300 14px / 24px "Custom-font";
   text-transform: none;
 }
 h1,
